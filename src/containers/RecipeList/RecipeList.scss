@@ -1,0 +1,47 @@
+.search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    .search-icon {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+
+        background-color: white;
+        padding: 0.75rem 0.75rem 0.25rem 0.75rem;
+        border-radius: 50%;
+    }
+
+    .search-input {
+        width: 50%;
+        border: none;
+        padding: 1rem;
+    }
+}
+
+.category-label {
+    text-transform: uppercase;
+    color: grey;
+    text-align: right;
+    font-size: 0.75rem;
+    margin-right: 2rem;
+}
+
+.category-value {
+    text-align: right;
+    font-family: 'Metropolis-Black';
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.recipe-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
