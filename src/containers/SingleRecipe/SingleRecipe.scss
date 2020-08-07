@@ -9,6 +9,10 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 4rem;
 
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+
     .instructions {
         .video {
             position: relative;
